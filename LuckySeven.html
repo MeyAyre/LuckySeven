@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lucky 7 Comrade</title>
+        <style>
+            .numbers{
+                background-color: darkred;
+                color: yellow;
+                display: inline-block;
+                width: 2em;
+                font-size: 5em;
+                text-align: center;
+                margin-left: 0.5em;
+            }
+            #num-container{
+                background-color: black;
+                width: 50%;
+                margin: 0 auto;
+                border-color: #C0C0C0;
+                border-width: thick;
+                border-style: solid;
+                padding: 5px;
+            }
+            #btn{
+                width: 25%;
+                margin-left: 38%;
+            }
+            #flavortext{
+                text-align: center;
+                font-family: sans-serif;
+            }
+            #luckyseven{
+                margin-left: 50%;
+            }
+            h1{
+                text-align: center;
+                font-family: sans-serif;
+                font-style: italic;
+                display: inline-block;
+            }
+            header img{
+                width: 5%;
+                display: inline-block;
+            }
+            header{
+                width: 40%;
+                margin-left: 30%;
+                border: silver solid thick;
+                text-align: center;
+                background-color: #CD0000;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Lucky Seven</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hammer_and_sickle.svg/2000px-Hammer_and_sickle.svg.png">
+        </header>
+        <div id="num-container">
+            <div class="numbers" id="slot1">2</div>
+            <div class="numbers" id="slot2">6</div>
+            <div class="numbers" id="slot3">7</div>
+            <div class="trapezoid"></div>
+        </div>
+        <br>
+        <p id="flavortext">Are you feeling lucky today? Take a spin and find out!</p>
+        <br>
+        <button id="btn" onclick="history.go(0)">Spin Me Comrad;)</button>
+        <br/> 
+        <br>
+        <img id="luckyseven" src="Images/LuckySevenExercise.jpg" />
+    </body>
+</html>
